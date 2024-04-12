@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 import csv
 import requests
 from flask import Flask, render_template, request
-import io
 
 app = Flask(__name__)
 app.config["DEBUG"] = True
